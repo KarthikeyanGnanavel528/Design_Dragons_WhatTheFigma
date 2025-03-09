@@ -1,0 +1,64 @@
+.title {
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.overall-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 1000px;
+}
+.about-and-contact {
+    flex:60%;
+}
+.about .subheading {
+    color: gray;
+    font-weight: 400;
+}
+.info-table {
+    width:90%;
+}
+.contact .heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact input {
+    width:100%;
+    margin: 10px 4px;
+    height: 30px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 5px;
+}
+.contact .message-input {
+    height: 100px;
+    padding-top: 0px;
+}
+.message-input ::placeholder {
+    vertical-align: top;
+}
+.contact button {
+    width: 102.5%;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+.picture {
+    display: flex;
+    justify-content: end;
+    flex:40%;
+    object-fit: cover;
+}
+.about-photo {
+    
+    width: 508px;
+    height: 657px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about p {
+    line-height: 30px;
+    font-size: large;
+}
